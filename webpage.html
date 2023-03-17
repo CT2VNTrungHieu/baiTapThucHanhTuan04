@@ -1,0 +1,106 @@
+<html lang="en">
+<style>
+#main {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+    }
+    
+    #page_left {
+        width: 80x;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-right: 1px solid #ddd;
+        border-radius: 4px;
+    }
+    
+    #taskbar {
+        width: 100%;
+        height: 55%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    #setting {
+        width: 100%;
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    #item {
+        width: 32px;
+        margin-top: 50px;
+    }
+    
+    #tittle {
+        width: 25%;
+        height: 20%;
+        text-align: center;
+        left: 100px;
+    }
+    
+    #page_mid {
+        width: 70%;
+        height: 30%;
+    }
+    
+    #page_mid_top {
+        width: 100%;
+        height: 30%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    #time {
+        border-color: crimson;
+        border-radius: 25px;
+        height: 40px;
+        width: 90px;
+    }
+}
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A_Conference call</title>
+</head>
+
+<body>
+    <div id="main">
+        <div id="page_left">
+            <div id="taskbar">
+                <img class="item" src="images/logo.png" alt="">
+                <img class="item" src="images/home.png" alt="">
+                <img class="item" src="images/chatting.png" alt="">
+                <img class="item" src="images/Cam.png" alt="">
+                <img class="item" src="images/chatting.png" alt="">
+                <img class="item" src="images/user.png" alt="">
+            </div>
+            <div id="setting">
+                <img class="item" src="images/avatar.png" alt="">
+                <img class="item" src="images/setting.png" alt="">
+            </div>
+        </div>
+        <div id="page_mid">
+            <div id="page_mid_top">
+                <h2 id="tittle">Meeting title</h2>
+                <button id="time">12:00</button>
+            </div>
+
+        </div>
+        <div id="page_right"></div>
+    </div>
+</body>
+
+</html>
